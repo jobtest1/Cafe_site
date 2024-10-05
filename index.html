@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Cafe - Menü</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Sarı Tema Renk Ayarları */
+        body {
+            background-color: #fffde7;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #f1e891 !important; /* Sarı navbar */
+        }
+
+        .navbar-brand, .nav-link {
+            color: #333 !important; /* Yazı rengi */
+        }
+
+        .navbar-toggler-icon {
+            filter: brightness(0);
+        }
+
+        .card-body h5 {
+            color: #f57f17; /* Başlıklar için koyu sarı */
+        }
+
+        .text-muted {
+            color: #f57f17 !important; /* Fiyat bilgisi için sarı */
+        }
+
+        footer {
+            background-color: #f1e891;
+            color: #333;
+        }
+
+        section#about {
+            background-color: #fff9c4;
+        }
+
+        .list-group-item {
+            background-color: #fffde7;
+            color: #333;
+        }
+
+        .list-group-item strong {
+            color: #f57f17;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Date Cafe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#menu">Menü</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menü Bölümü -->
+    <!-- Menü Bölümü -->
+<section id="menu" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Menümüz</h2>
+
+        <!-- Category: İçecekler -->
+        <h3>İçecekler</h3>
+        <div class="row">
+            <!-- Ihlamur -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/linden.jpeg" class="card-img-top" alt="Ihlamur">
+                    <div class="card-body">
+                        <h5 class="card-title">Ihlamur</h5>
+                        <p class="card-text">80,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Ada Çayı -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/sage.jpeg" class="card-img-top" alt="Ada Çayı">
+                    <div class="card-body">
+                        <h5 class="card-title">Ada Çayı</h5>
+                        <p class="card-text">80,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Kekik -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/thyme.jpeg" class="card-img-top" alt="Kekik">
+                    <div class="card-body">
+                        <h5 class="card-title">Kekik</h5>
+                        <p class="card-text">80,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Yeşilçay -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/green.jpeg" class="card-img-top" alt="Yeşilçay">
+                    <div class="card-body">
+                        <h5 class="card-title">Yeşilçay</h5>
+                        <p class="card-text">80,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Oralet -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="" class="card-img-top" alt="Oralet">
+                    <div class="card-body">
+                        <h5 class="card-title">Oralet</h5>
+                        <p class="card-text">40,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Milkshake -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/milkshake.jpeg" class="card-img-top" alt="Milkshake">
+                    <div class="card-body">
+                        <h5 class="card-title">Milkshake</h5>
+                        <p class="card-text">100,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Frozen -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/frozen.jpeg" class="card-img-top" alt="Frozen">
+                    <div class="card-body">
+                        <h5 class="card-title">Frozen</h5>
+                        <p class="card-text">100,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Portakal Suyu -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/orange.jpeg" class="card-img-top" alt="Portakal Suyu">
+                    <div class="card-body">
+                        <h5 class="card-title">Portakal Suyu</h5>
+                        <p class="card-text">100,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Nar Suyu -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/pomegranate.jpeg" class="card-img-top" alt="Nar Suyu">
+                    <div class="card-body">
+                        <h5 class="card-title">Nar Suyu</h5>
+                        <p class="card-text">100,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Karışık Portakal ve Nar -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/mixedorange.jpeg" class="card-img-top" alt="Karışık Portakal ve Nar">
+                    <div class="card-body">
+                        <h5 class="card-title">Karışık Portakal ve Nar</h5>
+                        <p class="card-text">140,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Su -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/su2.jpeg" class="card-img-top" alt="Su">
+                    <div class="card-body">
+                        <h5 class="card-title">Su</h5>
+                        <p class="card-text">25,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Çay -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/tea.jpeg" class="card-img-top" alt="Çay">
+                    <div class="card-body">
+                        <h5 class="card-title">Çay</h5>
+                        <p class="card-text">20,00 TL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category: Yiyecekler -->
+        <h3>Yiyecekler</h3>
+        <div class="row">
+            <!-- Burger -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/burger.jpeg" class="card-img-top" alt="Burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Burger</h5>
+                        <p class="card-text">275,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Cheken Burger -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/chicken burger.jpeg" class="card-img-top" alt="Cheken Burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Cheken Burger</h5>
+                        <p class="card-text">160,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Köfte Ekmek -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/kofte ekmek.jpeg" class="card-img-top" alt="Köfte Ekmek">
+                    <div class="card-body">
+                        <h5 class="card-title">Köfte Ekmek</h5>
+                        <p class="card-text">200,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Pizza -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/pizza.jpeg" class="card-img-top" alt="Pizza">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza</h5>
+                        <p class="card-text">175,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Patates Cipsi -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/patates.jpeg" class="card-img-top" alt="Patates Cipsi">
+                    <div class="card-body">
+                        <h5 class="card-title">Patates Cipsi</h5>
+                        <p class="card-text">100,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Soğan Halkası -->
+             <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/sogan halkası.jpeg" class="card-img-top" alt="Soğan Halkası">
+                    <div class="card-body">
+                        <h5 class="card-title">Soğan Halkası</h5>
+                        <p class="card-text">90,00</p>
+                    </div>
+                </div>
+             </div>
+           <h3>Kahveler</h3>        <!-- Category: İçecekler (Devam) -->
+        <div class="row">
+            <!-- Americano -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/americano.jpeg" class="card-img-top" alt="Americano">
+                    <div class="card-body">
+                        <h5 class="card-title">Americano</h5>
+                        <p class="card-text">80,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Expirecco -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/espresso.jpeg" class="card-img-top" alt="Expirecco">
+                    <div class="card-body">
+                        <h5 class="card-title">Expirecco</h5>
+                        <p class="card-text">100,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Latte -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/latte.jpeg" class="card-img-top" alt="Latte">
+                    <div class="card-body">
+                        <h5 class="card-title">Latte</h5>
+                        <p class="card-text">100,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Latte Aroma -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/latte aroma.jpeg" class="card-img-top" alt="Latte Aroma">
+                    <div class="card-body">
+                        <h5 class="card-title">Latte Aroma</h5>
+                        <p class="card-text">100,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Cappuccino -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/cappucino.jpeg" class="card-img-top" alt="Cappuccino">
+                    <div class="card-body">
+                        <h5 class="card-title">Cappuccino</h5>
+                        <p class="card-text">100,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Türk Kahvesi -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/turk kahvesi.jpeg" class="card-img-top" alt="Türk Kahvesi">
+                    <div class="card-body">
+                        <h5 class="card-title">Türk Kahvesi</h5>
+                        <p class="card-text">50,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Salep -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/salep.jpeg" class="card-img-top" alt="Salep">
+                    <div class="card-body">
+                        <h5 class="card-title">Salep</h5>
+                        <p class="card-text">80,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Nescafe -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/nescafe.jpeg" class="card-img-top" alt="Nescafe">
+                    <div class="card-body">
+                        <h5 class="card-title">Nescafe</h5>
+                        <p class="card-text">50,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Sıcak Çikolata -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/hot chocolate.jpeg" class="card-img-top" alt="Sıcak Çikolata">
+                    <div class="card-body">
+                        <h5 class="card-title">Sıcak Çikolata</h5>
+                        <p class="card-text">75,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Menengiç Kahvesi -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/menengic.jpeg" class="card-img-top" alt="Menengiç Kahvesi">
+                    <div class="card-body">
+                        <h5 class="card-title">Menengiç Kahvesi</h5>
+                        <p class="card-text">60,00 TL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category: Diğer İçecekler -->
+        <h3>Diğer İçecekler</h3>
+        <div class="row">
+            <!-- Cola -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/kola.jpeg" class="card-img-top" alt="Cola">
+                    <div class="card-body">
+                        <h5 class="card-title">Cola</h5>
+                        <p class="card-text">75,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fanta -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/fanta.jpeg" class="card-img-top" alt="Fanta">
+                    <div class="card-body">
+                        <h5 class="card-title">Fanta</h5>
+                        <p class="card-text">75,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Sprite -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/sprite.jpeg" class="card-img-top" alt="Sprite">
+                    <div class="card-body">
+                        <h5 class="card-title">Sprite</h5>
+                        <p class="card-text">75,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Ice Tea -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/ice tea.jpeg" class="card-img-top" alt="Ice Tea">
+                    <div class="card-body">
+                        <h5 class="card-title">Ice Tea</h5>
+                        <p class="card-text">75,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Sade Soda -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/soda.jpeg"card-img-top" alt="Sade Soda">
+                    <div class="card-body">
+                        <h5 class="card-title">Sade Soda</h5>
+                        <p class="card-text">35,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Meyveli Soda -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/meyve soda.jpeg" class="card-img-top" alt="Meyveli Soda">
+                    <div class="card-body">
+                        <h5 class="card-title">Meyveli Soda</h5>
+                        <p class="card-text">40,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Limonata -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/limonata.jpeg" class="card-img-top" alt="Limonata">
+                    <div class="card-body">
+                        <h5 class="card-title">Limonata</h5>
+                        <p class="card-text">80,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Gazoz -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/gazoz.jpeg" class="card-img-top" alt="Gazoz">
+                    <div class="card-body">
+                        <h5 class="card-title">Gazoz</h5>
+                        <p class="card-text">50,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Ayran -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/ayran.jpeg" class="card-img-top" alt="Ayran">
+                    <div class="card-body">
+                        <h5 class="card-title">Ayran</h5>
+                        <p class="card-text">35,00 TL</p>
+                    </div>
+                </div>
+            </div>
+                    <!-- Category: Diğer Yiyecekler -->
+            <!-- Redbull -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/redbull.jpeg" class="card-img-top" alt="Redbull">
+                    <div class="card-body">
+                        <h5 class="card-title">Redbull</h5>
+                        <p class="card-text">90,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Basil Seed Drink -->
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <img src="resimler/basil_seed.jpeg" class="card-img-top" alt="Basil Seed Drink">
+            <div class="card-body">
+                <h5 class="card-title">Basil Seed Drink</h5>
+                <p class="card-text">90,00 TL</p>
+            </div>
+        </div>
+    </div>
+    <!-- Beyoğlu -->
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <img src="resimler/beyoglu.jpeg" class="card-img-top" alt="Beyoğlu">
+            <div class="card-body">
+                <h5 class="card-title">Beyoğlu</h5>
+                <p class="card-text">85,00 TL</p>
+            </div>
+        </div>
+    </div>
+    <!-- Capri Sun Safari -->
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <img src="resimler/capri sun.jpeg" class="card-img-top" alt="Capri Sun Safari">
+            <div class="card-body">
+                <h5 class="card-title">Capri Sun Safari</h5>
+                <p class="card-text">60,00 TL</p>
+            </div>
+        </div>
+    </div>
+    <!-- Lemon Soda -->
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <img src="resimler/limon soda.jpeg" class="card-img-top" alt="Lemon Soda">
+            <div class="card-body">
+                <h5 class="card-title">Lemon Soda</h5>
+                <p class="card-text">75,00 TL</p>
+            </div>
+        </div>
+    </div>
+    <!-- Mojito Soda -->
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <img src="resimler/majito soda.jpeg" class="card-img-top" alt="Mojito Soda">
+            <div class="card-body">
+                <h5 class="card-title">Mojito Soda</h5>
+                <p class="card-text">75,00 TL</p>
+            </div>
+        </div>
+    </div>
+    <!-- Orange Soda -->
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <img src="resimler/orange soda.jpeg" class="card-img-top" alt="Orange Soda">
+            <div class="card-body">
+                <h5 class="card-title">Orange Soda</h5>
+                <p class="card-text">75,00 TL</p>
+            </div>
+        </div>
+    </div>
+    <!-- Schweppes -->
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <img src="resimler/shweppes.jpeg" class="card-img-top" alt="Schweppes">
+            <div class="card-body">
+                <h5 class="card-title">Schweppes</h5>
+                <p class="card-text">75,00 TL</p>
+            </div>
+        </div>
+    </div>
+    <!-- Churchill -->
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <img src="resimler/churchill.jpeg" class="card-img-top" alt="Churchill">
+            <div class="card-body">
+                <h5 class="card-title">Churchill</h5>
+                <p class="card-text">90,00 TL</p>
+            </div>
+        </div>
+    </div>
+    <!-- Coconut Drink -->
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <img src="resimler/coconaut.jpeg" class="card-img-top" alt="Coconut Drink">
+            <div class="card-body">
+                <h5 class="card-title">Coconut Drink</h5>
+                <p class="card-text">85,00 TL</p>
+            </div>
+        </div>
+    </div>
+            <!-- Sufle -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/sufle.jpeg" class="card-img-top" alt="Sufle">
+                    <div class="card-body">
+                        <h5 class="card-title">Sufle</h5>
+                        <p class="card-text">110,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Waffle -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/waffle.jpeg" class="card-img-top" alt="Waffle">
+                    <div class="card-body">
+                        <h5 class="card-title">Waffle</h5>
+                        <p class="card-text">110,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tabak Dondurma -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/tabak dondurma.jpeg" class="card-img-top" alt="Tabak Dondurma">
+                    <div class="card-body">
+                        <h5 class="card-title">Tabak Dondurma</h5>
+                        <p class="card-text">80,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Mozaik Pasta -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Mozaik Pasta">
+                    <div class="card-body">
+                        <h5 class="card-title">Mozaik Pasta</h5>
+                        <p class="card-text">145,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Limonlu Cheesecake -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/lemon cheesecake.jpeg" class="card-img-top" alt="Limonlu Cheesecake">
+                    <div class="card-body">
+                        <h5 class="card-title">Limonlu Cheesecake</h5>
+                        <p class="card-text">145,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Latte Mono -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/latte mono.jpeg" class="card-img-top" alt="Latte Mono">
+                    <div class="card-body">
+                        <h5 class="card-title">Latte Mono</h5>
+                        <p class="card-text">145,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Frambuazlı Cheesecake -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/frambuaz kek.jpeg" class="card-img-top" alt="Frambuazlı Cheesecake">
+                    <div class="card-body">
+                        <h5 class="card-title">Frambuazlı Cheesecake</h5>
+                        <p class="card-text">145,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fıstık Rüyası -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Fıstık Rüyası">
+                    <div class="card-body">
+                        <h5 class="card-title">Fıstık Rüyası</h5>
+                        <p class="card-text">145,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Dondurmalı Sufle -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/dondurma sufle.jpeg" class="card-img-top" alt="Dondurmalı Sufle">
+                    <div class="card-body">
+                        <h5 class="card-title">Dondurmalı Sufle</h5>
+                        <p class="card-text">150,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Çikolatalı Pasta -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/cikolata kek.jpeg" class="card-img-top" alt="Çikolatalı Pasta">
+                    <div class="card-body">
+                        <h5 class="card-title">Çikolatalı Pasta</h5>
+                        <p class="card-text">145,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Ballı Cevizli -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/ballı cevizli.jpeg" class="card-img-top" alt="Ballı Cevizli">
+                    <div class="card-body">
+                        <h5 class="card-title">Ballı Cevizli</h5>
+                        <p class="card-text">150,00 TL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category: Tostlar ve Kahvaltılar -->
+        <h3>Tostlar ve Kahvaltılar</h3>
+        <div class="row">
+            <!-- Kaşarlı Tost -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/kasarlı tost.jpeg" class="card-img-top" alt="Kaşarlı Tost">
+                    <div class="card-body">
+                        <h5 class="card-title">Kaşarlı Tost</h5>
+                        <p class="card-text">100,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Sucuklu Tost -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="" class="card-img-top" alt="Sucuklu Tost">
+                    <div class="card-body">
+                        <h5 class="card-title">Sucuklu Tost</h5>
+                        <p class="card-text">100,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Karışık Tost -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/karısık tost.jpeg" class="card-img-top" alt="Karışık Tost">
+                    <div class="card-body">
+                        <h5 class="card-title">Karışık Tost</h5>
+                        <p class="card-text">120,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Bazlamalı Tost -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Bazlamalı Tost">
+                    <div class="card-body">
+                        <h5 class="card-title">Bazlamalı Tost</h5>
+                        <p class="card-text">150,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Serpme Kahvaltı -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/serpme kahvalti.jpeg" class="card-img-top" alt="Serpme Kahvaltı">
+                    <div class="card-body">
+                        <h5 class="card-title">Serpme Kahvaltı</h5>
+                        <p class="card-text">400,00 TL</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tabak Kahvaltısı -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="resimler/tabak kahvaltı.jpeg" class="card-img-top" alt="Tabak Kahvaltısı">
+                    <div class="card-body">
+                        <h5 class="card-title">Tabak Kahvaltısı</h5>
+                        <p class="card-text">225,00 TL</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Date Cafe. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
