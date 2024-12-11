@@ -1,0 +1,67 @@
+.navbar {
+  background-color: #FFD700;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand {
+  color: #8B4513;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.menu-image {
+  max-height: 100px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+}
+
+.list-group-item {
+  border: 1px solid #FFE4B5;
+  margin-bottom: 5px;
+  background-color: #FFFACD;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+body {
+  background-color: #FFF8DC;
+  color: #8B4513;
+}
+
+h1, h2 {
+  color: #DAA520;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top:10%;
+  background-color: #FFD700;
+  color: #8B4513;
+  bottom: 0;
+  width: 100%;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
