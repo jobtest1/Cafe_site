@@ -65,3 +65,48 @@ footer {
     flex-direction: column;
   }
 }
+.bubble-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.bubble-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px; /* Daha geniş */
+  height: 100px; /* Daha dikdörtgensel */
+  background-color: #ffcc00; /* Parlak sarı */
+  color: #6b4f00; /* Koyu kahverengi */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 15px; /* Hafif yuvarlatılmış köşeler */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: center; /* Metni ortala */
+  padding: 10px; /* Daha iyi hizalama için iç boşluk */
+}
+.bubble-button:hover {
+  transform: scale(1.05); /* Hafif büyüme efekti */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+.bubble-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+h1 {
+  color: #6b4f00;
+  text-align: center;
+  margin-top: 20px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ffcc00;
+  color: #6b4f00;
+  margin-top: 50px;
+}
